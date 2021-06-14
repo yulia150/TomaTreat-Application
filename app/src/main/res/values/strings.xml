@@ -1,0 +1,129 @@
+
+<resources>
+    <string name="app_name">TomaTreat</string>
+
+     <string-array name="solution">
+         <item>bacterial
+<!--             <string-array name="bacterial">-->
+<!--                 <item>Avoid areas that were planted with peppers or tomatoes during the previous year</item>-->
+<!--                 <item>Avoid areas that were planted with peppers or tomatoes during the previous year</item>-->
+<!--                 <item>Avoid overhead watering by using drip or groove irrigation Remove all diseased plant parts</item>-->
+<!--                 <item>Prune the plant to increase air circulation</item>-->
+<!--                 <item>Spraying with copper fungicide will provide fairly good control of bacterial diseases</item>-->
+
+<!--             </string-array>-->
+
+         </item>
+
+        <item>
+            early blight
+<!--            <string-array name ="early blight">-->
+<!--                <item>Use a tolerant or tolerant cultivar of tomato</item>-->
+<!--                <item>Use pathogen free seeds and do not place diseased plants in the field</item>-->
+<!--                <item>Use crop rotation</item>-->
+<!--                <item>Don't wet tomato plants with irrigation water, and keep the plants growing</item>-->
+<!--                <item>Prune and remove infected branches and lower leaves</item>-->
+<!--                <item>If the crop damage is > 25%, one of the following effective fungicides can be applied: mancozeb (very good); chlorothalonil or copper fungicide (good)</item>-->
+<!--            </string-array>-->
+        </item>
+
+        <item>
+            late blight
+<!--            <string-array name="late blight">-->
+<!--                <item>Keep the leaves dry</item>-->
+<!--                <item>Place your garden in a place that will receive morning sun</item>-->
+<!--                <item>Give extra space between the plants</item>-->
+<!--                <item>Avoid watering over plants especially in the afternoon</item>-->
+<!--                <item>Purchase disease-free certified seeds and plants</item>-->
+<!--                <item>Don't compost store-bought rotten potatoes</item>-->
+<!--                <item>Unplug and destroy diseased plants</item>-->
+<!--                <item>If the disease is severe enough to require chemical control, choose one of the following fungicides: chlorothalonil (very good); copper fungicide, or mancozeb (good)</item>-->
+<!--            </string-array>-->
+        </item>
+
+        <item>
+            leaf mold
+<!--            <string-array name="leaf mold">-->
+<!--                <item>Crop residues must be removed from the field</item>-->
+<!--                <item>Pruning to improve air circulation helps control disease</item>-->
+<!--                <item>Avoid wetting the leaves when watering</item>-->
+<!--                <item>Spin with vegetables other than tomatoes</item>-->
+<!--                <item>Using a preventive fungicide program with chlorothalonil, mancozeb or copper fungicides</item>-->
+<!--            </string-array>-->
+        </item>
+
+        <item>
+            septoria leaf spot
+<!--            <string-array name="septoria laf mold">-->
+<!--                <item>Crop rotation for 3 years and sanitation</item>-->
+<!--                <item>Do not use over-head irrigation</item>-->
+<!--                <item>Repeat fungicide with chlorothalonil (very good) or copper fungicide, or mancozeb (good) this will keep the disease under control</item>-->
+<!--            </string-array>-->
+        </item>
+
+        <item>
+            spider mites
+<!--            <string-array name="coba dulu">-->
+<!--                <item>Avoid weedy fields and do not plant eggplant adjacent to legume forage crops</item>-->
+<!--                <item>Avoid early season, broad-spectrum insecticide applications for other pests</item>-->
+<!--                <item>Do not over-fertilize</item>-->
+<!--                <item>Overhead irrigation or prolonged periods of rain can help reduce populations</item>-->
+<!--                <item>Mites can be removed by spraying with plenty of water using a high pressure water hose or damp sponge if the plant is indoors</item>-->
+<!--                <item>Mites can also be removed using a soapy water solution by mixing 1 tablespoon of dish soap with 1 tablespoon of cooking oil in 1 liter of water. Spray on the leaves of plants that are infested with mites</item>-->
+<!--                <item>For control, use selective products such as bifenazate (Acramite), abamectin (Agri-Mek), spirotetramat (Movento), spiromesifen (Oberon 2SC).</item>-->
+<!--            </string-array>-->
+
+        </item>
+
+        <item>
+            target spot
+<!--            <string-array name="coba juga">-->
+<!--                <item>Don't plant new crops next to older ones that have the disease</item>-->
+<!--                <item>Plant as far as possible from papaya, especially if leaves have small angular spots</item>-->
+<!--                <item>Remove a few branches from the lower part of the plants to allow better airflow at the base</item>-->
+<!--                <item>Remove and burn the lower leaves as soon as the disease is seen, especially after the lower fruit trusses have been picked</item>-->
+<!--                <item>Keep plots free from weeds, as some may be hosts of the fungus</item>-->
+<!--                <item>Do not use overhead irrigation; otherwise, it will create conditions for spore production and infection</item>-->
+<!--                <item>Collect and burn as much of the crop as possible when the harvest is complete</item>-->
+<!--                <item>Practice crop rotation, leaving 3 years before replanting tomatoes on the same land</item>-->
+<!--                <item>Chemical Control:</item>-->
+<!--                <item>Warm wet conditions favor the disease such that fungicides are needed to give adequate control. The products to use are chlorothalonil, copper oxychloride or mancozeb. Treatment should start when the first spots are seen and continue at 10-14-day intervals until 3-4 weeks before last harvest. It is important to spray both sides of the leaves.</item>-->
+<!--            </string-array>-->
+        </item>
+
+         <item>
+             yellow leaf curl virus
+<!--             <string-array name= "coba aja juga">-->
+<!--                 <item>Remove plants that are exposed to early symptoms to slow down the spread</item>-->
+<!--                 <item>Infected plants that are uprooted must be bagged immediately to prevent the spread of whiteflies that feed on these plants</item>-->
+<!--                 <item>Control weeds in and around the garden site</item>-->
+<!--                 <item>Reflective mulch (aluminum or silver in color) can be used in rows to reduce whitefly feeding</item>-->
+<!--                 <item>Spray low concentrations of horticultural oil or canola oil which will act as a whitefly repellent, reducing feeding and the possibility of virus transmission</item>-->
+<!--                 <item>Use a 0.25 to 0.5% oil spray (2 to 4 teaspoons of horticultural or canola oil and a few drops of dish soap per gallon of water) every week.</item>-->
+<!--             </string-array>-->
+         </item>
+         <item>
+             mosaic virus
+<!--             <string-array name="coba coba ">-->
+<!--                 <item>Using healthy plant seeds (does not contain viruses)</item>-->
+<!--                 <item>Plants showing symptoms are immediately removed and destroyed so that they do not become a source of infection to other healthy plants</item>-->
+<!--                 <item>Perform crop rotation / rotation with plants that are not viral hosts (especially not from the Solanaceae family such as chili, potato, tobacco, and the cucurbitaceae family such as cucumber)</item>-->
+<!--                 <item>Perform environmental sanitation to control weeds that can host viruses</item>-->
+<!--                 <item>The use of silver mulch in the uplands, and hay in the lowlands to reduce vector insect infestations</item>-->
+<!--                 <item>Immunization of tomato plants with attenuated CMV virus with satellite virus CARNA-5 (Cucumber Mosaic Virus Associated RNA-5)</item>-->
+<!--             </string-array>-->
+         </item>
+         <item>
+             healthy
+<!--             <string-array name="dicoba">-->
+<!--                 <item>Tips To Keep your Tomato Plants Healthy :</item>-->
+<!--                 <item>Rotate Where You Plant Your Tomatoes</item>-->
+<!--                 <item>Start Them Off With A Calcium Boost</item>-->
+<!--                 <item>Mulch Your Plants</item>-->
+<!--                 <item>Prune Your Plants As They Grow</item>-->
+<!--                 <item>Clear The Plants When The Season Ends</item>-->
+<!--             </string-array>-->
+
+         </item>
+    </string-array>
+</resources>
