@@ -4,164 +4,276 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="horizontal"
-    android:layout_marginLeft="16dp"
-    android:layout_marginRight="16dp">
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp">
 
     <RelativeLayout
-        android:layout_width="256dp"
-        android:layout_height="256dp">
+        android:background="@layout/relativelayout_radius_border"
+        android:layout_width="180dp"
+        android:layout_margin="6dp"
+        android:layout_height="220dp"
+        android:backgroundTint="#EFFBEF"
+        android:elevation="5dp">
+
         <ImageView
-            android:layout_width="256dp"
-            android:layout_height="256dp"
-            android:src="@drawable/bacterilal_spot"/>
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/bacterial" />
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="17dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
             android:text="Tomato Bacterial Spot"
-            android:background="@color/primary_color"
             android:layout_alignParentBottom="true"/>
     </RelativeLayout>
 
     <RelativeLayout
-        android:layout_width="256dp"
-        android:layout_height="256dp"
-        android:layout_marginLeft="10dp">
+        android:background="@layout/relativelayout_radius_border"
+        android:layout_width="180dp"
+        android:layout_margin="6dp"
+        android:layout_height="220dp"
+        android:backgroundTint="#CEF6CE"
+        android:elevation="5dp">
+
         <ImageView
-            android:layout_width="256dp"
-            android:layout_height="256dp"
-            android:src="@drawable/early_blight"/>
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="37dp"
+            android:src="@drawable/early" />
+
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="37dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
             android:text="Tomato Early Blight"
-            android:background="@color/primary_color"
-            android:layout_alignParentBottom="true"/>
+            android:textColor="@color/black"
+            android:textSize="17dp" />
     </RelativeLayout>
 
     <RelativeLayout
-        android:layout_width="256dp"
-        android:layout_height="256dp"
-        android:layout_marginLeft="10dp">
+        android:background="@layout/relativelayout_radius_border"
+        android:layout_width="180dp"
+        android:layout_margin="6dp"
+        android:layout_height="220dp"
+        android:backgroundTint="#A9F5A9"
+        android:elevation="5dp">
         <ImageView
-            android:layout_width="256dp"
-            android:layout_height="256dp"
-            android:src="@drawable/late_blight"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tomato Late Blight"
-            android:background="@color/primary_color"
-            android:layout_alignParentBottom="true"/>
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="256dp"
-        android:layout_height="256dp"
-        android:layout_marginLeft="10dp">
-        <ImageView
-            android:layout_width="256dp"
-            android:layout_height="256dp"
-            android:src="@drawable/leaf_mold"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tomato Leaf Mold"
-            android:background="@color/primary_color"
-            android:layout_alignParentBottom="true"/>
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="256dp"
-        android:layout_height="256dp"
-        android:layout_marginLeft="10dp">
-        <ImageView
-            android:layout_width="256dp"
-            android:layout_height="256dp"
-            android:src="@drawable/mosaic_virus"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tomato Mosaic Virus"
-            android:background="@color/primary_color"
-            android:layout_alignParentBottom="true"/>
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="256dp"
-        android:layout_height="256dp"
-        android:layout_marginLeft="10dp">
-        <ImageView
-            android:layout_width="256dp"
-            android:layout_height="256dp"
-            android:src="@drawable/spider_mites"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tomato Spider Mites"
-            android:background="@color/primary_color"
-            android:layout_alignParentBottom="true"/>
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="256dp"
-        android:layout_height="256dp"
-        android:layout_marginLeft="10dp">
-        <ImageView
-            android:layout_width="256dp"
-            android:layout_height="256dp"
-            android:src="@drawable/target_spot"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tomato Target Spot"
-            android:background="@color/primary_color"
-            android:layout_alignParentBottom="true"/>
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="256dp"
-        android:layout_height="256dp"
-        android:layout_marginLeft="10dp">
-        <ImageView
-            android:layout_width="256dp"
-            android:layout_height="256dp"
-            android:src="@drawable/yellow_leaf_curl_virus"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tomato Yellow Leaf Curl Virus"
-            android:background="@color/primary_color"
-            android:layout_alignParentBottom="true"/>
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="256dp"
-        android:layout_height="256dp"
-        android:layout_marginLeft="10dp">
-        <ImageView
-            android:layout_width="256dp"
-            android:layout_height="256dp"
-            android:src="@drawable/septoria_leaf_spot"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tomato Septoria Leaf Spot"
-            android:background="@color/primary_color"
-            android:layout_alignParentBottom="true"/>
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="256dp"
-        android:layout_height="256dp">
-        <ImageView
-            android:layout_width="256dp"
-            android:layout_height="256dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
             android:src="@drawable/healthy"/>
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginBottom="20dp"
             android:text="Tomato Healthy"
-            android:background="@color/primary_color"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@layout/relativelayout_radius_border"
+        android:layout_width="180dp"
+        android:layout_margin="6dp"
+        android:layout_height="220dp"
+        android:backgroundTint="#F7F2E0"
+        android:elevation="5dp">
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/late_blight"/>
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginBottom="20dp"
+            android:text="Tomato Late Blight"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@layout/relativelayout_radius_border"
+        android:layout_width="180dp"
+        android:layout_margin="6dp"
+        android:layout_height="220dp"
+        android:backgroundTint="#F3E2A9"
+        android:elevation="5dp">
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/leaf_mold"/>
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginBottom="20dp"
+            android:text="Tomato Leaf Mold"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@layout/relativelayout_radius_border"
+        android:layout_width="180dp"
+        android:layout_margin="6dp"
+        android:layout_height="220dp"
+        android:backgroundTint="#F5DA81"
+        android:elevation="5dp">
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/septoria"/>
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginBottom="20dp"
+            android:text="Tomato Septoria Leaf Spot"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@layout/relativelayout_radius_border"
+        android:layout_width="180dp"
+        android:layout_margin="6dp"
+        android:layout_height="220dp"
+        android:backgroundTint="#F8E0E0"
+        android:elevation="5dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/spider" />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="17dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="Tomato Spider Mites"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@layout/relativelayout_radius_border"
+        android:layout_width="180dp"
+        android:layout_margin="6dp"
+        android:layout_height="220dp"
+        android:backgroundTint="#F6CECE"
+        android:elevation="5dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/target_spot" />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="17dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="Tomato Target Spot"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@layout/relativelayout_radius_border"
+        android:layout_width="180dp"
+        android:layout_margin="6dp"
+        android:layout_height="220dp"
+        android:backgroundTint="#F5A9A9"
+        android:elevation="5dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/mosaic" />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="17dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="Tomato Mosaic Virus"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@layout/relativelayout_radius_border"
+        android:layout_width="180dp"
+        android:layout_margin="6dp"
+        android:layout_height="220dp"
+        android:backgroundTint="#F78181"
+        android:elevation="5dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/yellow" />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="17dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="Tomato Yellow Leaf Curl"
             android:layout_alignParentBottom="true"/>
     </RelativeLayout>
 
